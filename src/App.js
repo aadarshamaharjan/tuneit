@@ -1,25 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Layout from "./hoc/Layout/Layout";
+import './assets/css/layout.scss'
+import LabRat from "./component/LabRat/LabRat";
+import './assets/css/navbar.css'
+import './assets/css/video.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <>
+            <Layout/>
+            </>
   );
 }
 
